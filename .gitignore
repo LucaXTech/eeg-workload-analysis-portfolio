@@ -216,3 +216,43 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-generated outputs
+spectral_features_output.csv
+cross_paradigm_results.csv
+time_on_task_outputs/
+analysis_examples/time_on_task_outputs/
+
+# Local data folders
+data/
+raw_data/
+processed_data/
+features/
+outputs/
+results/
+figures/
+
+# EEG and physiological data files
+*.edf
+*.bdf
+*.fif
+*.set
+*.vhdr
+*.vmrk
+*.eeg
+*.cnt
+*.mat
+*.npz
+
+# Participant-level tables and private spreadsheets
+*.xlsx
+*.xls
+
+# Large or private local archives
+*.zip
+*.rar
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
