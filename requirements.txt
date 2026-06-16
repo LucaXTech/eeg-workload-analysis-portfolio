@@ -1,0 +1,9 @@
+gpype
+PySide6
+
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+mne
