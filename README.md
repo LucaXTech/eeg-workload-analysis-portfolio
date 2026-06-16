@@ -43,9 +43,31 @@ eeg-workload-analysis-portfolio/
 │   ├── nlevels/
 │   └── nspeed/
 ├── requirements.txt
+├── requirements_acquisition.txt
 ├── .gitignore
 └── README.md
 ```
+## Installation
+
+The repository separates analysis dependencies from acquisition dependencies.
+
+For the analysis examples, install:
+
+```bash
+pip install -r requirements.txt
+```
+
+This includes the main scientific Python packages used for EEG feature extraction, machine learning and visualization.
+
+For the acquisition scripts, install:
+
+```bash
+pip install -r requirements_acquisition.txt
+```
+
+This includes `gpype` and `PySide6`, which are required for the g.Pype-based acquisition scripts and the operator control panel.
+
+The analysis examples can run without the acquisition dependencies.
 
 ---
 
@@ -101,8 +123,7 @@ The scripts define:
 * participant ID handling;
 * operator control panel for advancing through experimental blocks.
 
-These scripts are provided as documentation of the experimental acquisition workflow and require the g.Pype SDK. g.Pype is publicly available as a Python SDK for neuroscience and BCI applications and can be installed with `pip install gpype`. Some scripts also use PySide6 for the operator control panel.
-
+These scripts are provided as documentation of the experimental acquisition workflow and require the dependencies listed in `requirements_acquisition.txt`. The scripts use the g.Pype SDK and PySide6 for the operator control panel.
 ---
 
 ## Documentation
