@@ -8,11 +8,21 @@ The scripts are designed to run without participant data by generating synthetic
 
 ## Setup
 
-Create a Python environment and install the required packages from the repository root:
+The analysis examples only require the packages listed in `requirements.txt`.
+
+From the repository root, install the analysis dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+The acquisition scripts are separate from the analysis examples. They require the additional dependencies listed in `requirements_acquisition.txt`:
+
+```bash
+pip install -r requirements_acquisition.txt
+```
+
+You only need `requirements_acquisition.txt` if you want to inspect or run the g.Pype-based acquisition scripts.
 
 ---
 
