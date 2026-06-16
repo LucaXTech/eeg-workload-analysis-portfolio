@@ -1,6 +1,3 @@
-gpype
-PySide6
-
 numpy
 pandas
 scipy
