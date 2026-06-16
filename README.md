@@ -30,6 +30,7 @@ eeg-workload-analysis-portfolio/
 │   └── n_speed_test.py
 ├── analysis_examples/
 │   ├── README.md
+│   ├── run_examples.md
 │   ├── spectral_features_example.py
 │   ├── baseline_classification_example.py
 │   ├── time_on_task_example.py
@@ -136,7 +137,7 @@ The file `docs/reproducibility_notes.md` summarizes the main validation and repr
 
 ## Analysis workflow
 
-The repository includes three sanitized and self-contained analysis examples.
+The repository includes four sanitized and self-contained analysis examples. Example commands for running the scripts are provided in `analysis_examples/run_examples.md`.
 
 ### Spectral feature extraction
 
