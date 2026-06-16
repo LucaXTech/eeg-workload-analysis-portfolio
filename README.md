@@ -36,7 +36,8 @@ eeg-workload-analysis-portfolio/
 |   └── cross_paradigm_transfer_example.py
 ├── docs/
 │   ├── BCICore8_Electrode_Positions.png
-│   └── protocol_summary.md
+│   ├── protocol_summary.md
+│   └── reproducibility_notes.md
 ├── paradigms/
 │   ├── nlevels/
 │   └── nspeed/
@@ -100,6 +101,36 @@ The scripts define:
 * operator control panel for advancing through experimental blocks.
 
 These scripts are provided as documentation of the experimental acquisition workflow and require the g.Pype SDK. g.Pype is publicly available as a Python SDK for neuroscience and BCI applications and can be installed with `pip install gpype`. Some scripts also use PySide6 for the operator control panel.
+
+---
+
+## Documentation
+
+The `docs/` folder contains additional documentation about the experimental protocol and reproducibility principles.
+
+### Protocol summary
+
+The file `docs/protocol_summary.md` summarizes the experimental structure, including:
+
+* EEG acquisition setup;
+* channel configuration;
+* N-LEVELS and N-SPEED paradigms;
+* TRAIN and TEST block orders;
+* UDP event markers;
+* analysis rationale.
+
+### Reproducibility notes
+
+The file `docs/reproducibility_notes.md` summarizes the main validation and reproducibility principles followed in the workflow, including:
+
+* data privacy;
+* data leakage prevention;
+* within-subject validation;
+* leave-one-subject-out validation;
+* observation-time analysis;
+* time-on-task analysis;
+* cross-paradigm transfer;
+* limitations of the public portfolio repository.
 
 ---
 
