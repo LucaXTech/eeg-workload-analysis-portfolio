@@ -47,11 +47,28 @@ The script demonstrates how scaling and model fitting should be kept inside the 
 
 ---
 
+### `time_on_task_example.py`
+
+Self-contained example for time-on-task and temporal drift analysis.
+
+Main components:
+
+* temporal segment handling;
+* within-subject feature normalization;
+* early, middle and late phase comparison;
+* Spearman trend analysis across task segments;
+* Kruskal-Wallis testing across temporal phases;
+* simple time-course plot generation;
+* optional synthetic feature data generation.
+
+The script demonstrates how EEG features can be analyzed dynamically rather than only as static block-level averages. This is useful for studying temporal changes related to workload, fatigue, arousal and task duration.
+
+---
+
 ## Planned additional modules
 
 Additional sanitized examples may include:
 
-* time-on-task analysis;
 * observation-time analysis;
 * cross-paradigm transfer;
 * ERP feature extraction and classification;
