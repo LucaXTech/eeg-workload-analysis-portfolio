@@ -34,7 +34,7 @@ eeg-workload-analysis-portfolio/
 │   ├── spectral_features_example.py
 │   ├── baseline_classification_example.py
 │   ├── time_on_task_example.py
-|   └── cross_paradigm_transfer_example.py
+│   └── cross_paradigm_transfer_example.py
 ├── docs/
 │   ├── BCICore8_Electrode_Positions.png
 │   ├── protocol_summary.md
@@ -124,6 +124,7 @@ The scripts define:
 * operator control panel for advancing through experimental blocks.
 
 These scripts are provided as documentation of the experimental acquisition workflow and require the dependencies listed in `requirements_acquisition.txt`. The scripts use the g.Pype SDK and PySide6 for the operator control panel.
+
 ---
 
 ## Documentation
@@ -236,6 +237,7 @@ The repository is intended as a technical portfolio demonstrating experimental d
 
 ## Author
 
-Luca Serioli
+**Luca Serioli**
 Biomedical Engineer
 EEG signal processing, computational neurophysiology and biomedical data analysis
+
