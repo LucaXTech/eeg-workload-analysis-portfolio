@@ -21,7 +21,7 @@ Expected input CSV format, if using real features:
 - optional subject column, for example: subject_id.
 """
 
-from **future** import annotations
+from __future__ import annotations
 
 import argparse
 from pathlib import Path
@@ -394,5 +394,5 @@ if not args.skip_loso and group_col is not None:
     )
 ```
 
-if **name** == "**main**":
+if __name__ == "__main__":
 main()
