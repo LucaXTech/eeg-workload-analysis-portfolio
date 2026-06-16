@@ -24,10 +24,10 @@ Each paradigm included separate TRAIN and TEST sessions with predefined block or
 ```text
 eeg-workload-analysis-portfolio/
 ├── acquisition/
-│   ├── 1 - N_LEVEL_TRAIN.py
-│   ├── 2 - N_LEVEL_TEST.py
-│   ├── 3 - N_SPEED_TRAIN.py
-│   └── 4 - N_SPEED_TEST.py
+│   ├── n_level_train.py
+│   ├── n_level_test.py
+│   ├── n_speed_train.py
+│   └── n_speed_test.py
 ├── docs/
 │   └── BCICore8_Electrode_Positions.png
 ├── paradigms/
