@@ -235,6 +235,14 @@ The repository is intended as a technical portfolio demonstrating experimental d
 
 ---
 
+## License
+
+No open-source license is currently provided. The repository is shared as a technical portfolio for academic and research application purposes.
+
+The acquisition scripts depend on g.Pype, which is distributed separately by g.tec medical engineering under its own license. This repository does not redistribute g.Pype.
+
+---
+
 ## Author
 
 **Luca Serioli**
