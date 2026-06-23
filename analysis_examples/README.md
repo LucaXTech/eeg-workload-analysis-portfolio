@@ -18,6 +18,8 @@ analysis_examples/run_examples.md
 
 The scripts can run without participant data by generating synthetic EEG-like signals or synthetic feature tables where appropriate.
 
+The synthetic outputs are intended only to demonstrate the structure of the analysis workflow. They should not be interpreted as thesis results or as results obtained from real participants.
+
 ---
 
 ## Available scripts
@@ -95,26 +97,26 @@ The script demonstrates how a classifier trained on one workload manipulation ca
 
 ---
 
-## Planned additional modules
+## Scope and limitations
 
-Additional sanitized examples may include:
+These scripts are public, sanitized examples derived from a broader private thesis workflow.
 
-* observation-time analysis;
-* ERP feature extraction and classification;
-* behavioral and questionnaire integration.
+The public version focuses on:
 
-Each script will be cleaned before publication by removing:
+* spectral feature extraction;
+* leakage-aware classification;
+* time-on-task analysis;
+* cross-paradigm transfer.
 
-* local Windows paths;
-* subject-specific output folders;
-* private data references;
-* unnecessary thesis-specific comments;
-* duplicated or obsolete code sections.
+Additional analyses from the broader thesis workflow, such as ERP processing, behavioral analysis and questionnaire integration, are not included in this public repository because they depend on private participant-level data and thesis-specific output folders.
+
+The examples are designed to show analysis logic, code organization and reproducibility principles rather than to reproduce the complete private experimental dataset.
 
 ---
 
 ## Data availability
 
-The scripts are intended as portfolio examples.
+The scripts are intended as sanitized analysis examples.
 
 To run them with real data, users must provide their own EEG data following the expected structure. This repository does not provide participant recordings.
+
