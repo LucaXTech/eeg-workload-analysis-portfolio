@@ -1,8 +1,8 @@
 # EEG-Based Mental Workload Analysis in N-Back Tasks
 
-This repository contains a sanitized portfolio version of an EEG-based mental workload project developed during my MSc thesis and Erasmus+ research traineeship at g.tec medical engineering.
+This repository contains a sanitized public version of an EEG-based mental workload project developed during my MSc thesis and Erasmus+ research traineeship at g.tec medical engineering.
 
-The project focused on EEG recordings acquired during N-back tasks designed to manipulate cognitive workload through working-memory load and stimulus presentation speed. The repository includes protocol documentation, N-back paradigm files, acquisition scripts, and representative material for reproducible EEG signal-processing and machine-learning workflows.
+The project focused on EEG recordings acquired during N-back tasks designed to manipulate cognitive workload through working-memory load and stimulus presentation speed. The repository includes protocol documentation, N-back paradigm files, acquisition scripts and representative material for reproducible EEG signal-processing and machine-learning workflows.
 
 No participant data are included in this repository.
 
