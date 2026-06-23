@@ -2,7 +2,9 @@
 
 This document provides example commands for running the sanitized analysis scripts included in this folder.
 
-The scripts are designed to run without participant data by generating synthetic EEG-like signals or synthetic feature tables when no input file is provided.
+The scripts can run without participant data by generating synthetic EEG-like signals or synthetic feature tables when no input file is provided.
+
+The synthetic outputs are included only to demonstrate the workflow structure. They are not intended to reproduce the original MSc thesis results.
 
 ---
 
@@ -180,8 +182,10 @@ Optional columns such as `subject_id`, `condition`, `window_id` or `segment_idx`
 
 ## Notes
 
-The synthetic data are included only to make the scripts executable and to demonstrate the workflow structure.
+The scripts are designed as sanitized analysis examples and can be executed without access to the original private dataset.
 
-They are not intended to reproduce the original thesis results.
+Synthetic data are generated only to make the examples executable and to demonstrate the expected workflow structure.
 
-No participant data are included in this repository.
+The outputs produced from synthetic data are not thesis results and should not be interpreted as participant-derived findings.
+
+No raw EEG recordings, participant identifiers, questionnaire data or behavioral response files are included in this repository.
