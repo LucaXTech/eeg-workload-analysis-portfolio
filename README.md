@@ -1,4 +1,4 @@
-# EEG Workload Analysis Portfolio
+# EEG-Based Mental Workload Analysis in N-Back Tasks
 
 This repository contains a sanitized portfolio version of an EEG-based mental workload project developed during my MSc thesis and Erasmus+ research traineeship at g.tec medical engineering.
 
